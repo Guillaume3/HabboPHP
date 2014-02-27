@@ -18,6 +18,15 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 -- Structure de la table `habbophp_forum_categories`
 --
 
+CREATE TABLE `habbophp_template_custom` (
+  `id` int(4) NOT NULL AUTO_INCREMENT,
+  `parent` varchar(25) NOT NULL,
+  `properties` varchar(25) NOT NULL,
+  `value` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+
 CREATE TABLE IF NOT EXISTS `habbophp_forum_categories` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `value` varchar(255) NOT NULL,
