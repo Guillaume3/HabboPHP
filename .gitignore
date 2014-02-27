@@ -6,5 +6,12 @@ themes/templates/templates_c/*
 themes/templates/templates_c/06b8d083cc1095a1acb9a069be16f4d9c6c45f77.file.profile-password.tpl.php
 .DS_Store
 /Applications/MAMP/htdocs/HabboPHP/themes/templates/templates_c/*
-
 themes/templates/templates_c/465fb259b21e5067ad03777107b109f1177ea732.file.shop.tpl.php
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

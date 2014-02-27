@@ -269,7 +269,7 @@ function setconfig(value,type) {
 				alert('<?php echo $lang['ErrorToken']; ?>');	
 				console.log(data);
 			}else
-			alert('<?php echo $lang['Error']; ?>');
+			console.log('<?php echo $lang['Error']; ?>');
 			console.log(data);
 		}
 	});
